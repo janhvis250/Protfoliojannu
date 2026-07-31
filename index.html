@@ -1,245 +1,413 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Janhvi Singh - Developer Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-    
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body {
-            background-color: rgb(0, 0, 34);
-            color: white;
-            font-family: 'Poppins', sans-serif;
-        }
-        nav {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            height: 80px;
-            background-color: rgb(18, 18, 64);
-        }
-        nav ul {
-            display: flex;
-            justify-content: center;
-        }
-        nav ul li {
-            list-style: none;
-            margin: 0 23px;
-        }
-        nav ul li a {
-            text-decoration: none;
-            color: white;
-        }
-        nav ul li a:hover {
-            color: rgb(153, 153, 226);
-            font-size: 1.04rem;
-        }
-        main hr {
-            border: 0;
-            background: #9c97f1;
-            height: 1.2px;
-            margin: 60px 84px;
-        }
-        .left {
-            font-size: 1.5rem;
-        }
-        .firstSection {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            margin: 80px 0;
-        }
-        .firstSection > div {
-            width: 30%;
-        }
-        .leftSection {
-            font-size: 3rem;
-        }
-        .leftSection .button {
-            padding: 12px;
-            background-color: black;
-            color: white;
-            border: 2px solid white;
-            border-radius: 4px;
-            font-size: 20px;
-            cursor: pointer;
-            margin-right: 10px;
-        }
-        .rightSection img {
-            width: 200px; /* Adjust the size as needed */
-            border-radius: 50%; /* Makes the image circular */
-        }
-        .text-gray {
-            color: gray;
-        }
-        .secondSection {
-            max-width: 80vw;
-            margin: auto;
-        }
-        .secondSection h1 {
-            font-size: 1.9rem;
-        }
-        footer {
-            background-color: rgb(2, 30, 57);
-            height: 233px;
-        }
-        .footer {
-            display: flex;
-            padding: 23px 122px;
-            justify-content: space-evenly;
-        }
-        .footer ul {
-            list-style: none;
-        }
-        .contact-section {
-            text-align: center;
-            margin: 50px 0;
-        }
-        .contact-section h2 {
-            font-size: 2rem;
-            margin-bottom: 20px;
-        }
-        .contact-section a {
-            text-decoration: none;
-            color: white;
-            padding: 10px 20px;
-            background-color: rgb(18, 18, 64);
-            border: 2px solid white;
-            border-radius: 5px;
-            transition: background-color 0.3s ease;
-        }
-        .contact-section a:hover {
-            background-color: rgb(50, 50, 120);
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Janhvi Singh | Backend Developer & AI Enthusiast</title>
+  <meta name="description" content="Portfolio of Janhvi Singh - B.Tech CSE (AI) student, backend developer, and full-stack developer building AI-powered web applications with Python, Flask, and React.js.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="left">Janhvi's Portfolio</div>
-            <div class="right">
-                <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="/">Projects</a></li>
-                    <li><a href="#contact">Contact Me</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-    <main>
-        <section class="firstSection"> 
-            <div class="leftSection">
-                Hi, my name is Janhvi Singh 
-                <div>and I am a Passionate</div>
-                <span id="element"></span>
-                <div>
-                    <!-- Resume Download Button -->
-                    <a href="janhvi.resume.jpg.pdf" target="_blank" download>
-                        <button class="button">Download Resume</button>
-                    </a>
-                    <!-- GitHub Button -->
-                    <a href="https://github.com/janhvis250"_blank">
-                        <button class="button">Visit GitHub</button>
-                    </a>
-                </div>
-            </div>
-            <div class="rightSection">
-                <img src="janhvi.png.jpg" alt="Janhvi's Profile Photo" style="width: 200px; border-radius: 50%;">
-            </div>
-        </section>
-        <hr>
-        <section class="secondSection">
-            <h1>About Me</h1>
-            <p>
-                I'm currently a B.Tech 2nd year student at KAMLA NEHRU INSTITUTE OF PHYSICAL & SOCIAL SCIENCES  FARIDIPUR, SULTANPUR (U.P.)
-                , specializing in CSE with AI. I am learning web development and have a strong understanding of C language, Java, python and MySQL.
-            </p>
-        </section>
-        <section id="services" class="secondSection">
-            <h1>Services</h1>
-            <ul>
-                <li>Website development using HTML, CSS, JavaScript, Next.js, and Node.js</li>
-                <li>Front-end and back-end web development</li>
-                <li>Custom web solutions and design</li>
-                <li>Java and Python programming solutions</li>
-                <li>Database management using MySQL</li>
-                <li>AI-related concepts and implementation</li>
-            </ul>
-        </section>
-        <hr>
-        <section class="secondSection">
-            <h1>Projects</h1>
-            <p>Currently, I Have Only one simple projects. It's based on real word problem;- Library Management System is one of the most common software development projects till date. In this article, we are going to make the Library Management System software development project, from scratch, for 2nd year students. We will be covering all the steps you have to do while developing this project.In Our project as we will be exploring about web application for Library Management system project so we will be required below skill sets. </p>
-            <p> 1:- Front end Developer
-                2:- Back end Developer 
-                3:- Tester
-                4:- Devops Developer </p>
-        </section>
-        
-        <hr>
-        <!-- New Contact Section -->
-        <section class="contact-section">
-            <h2>Interested? Contact Me!</h2>
-            <p>If you're interested in working with me or have any inquiries, feel free to send me an email or give me a call!</p>
-            <a href="mailto:singhjanhvi2006@gmail.com">Send an Email</a> 
-            <br><br>
-            <a href="tel:+91 9219435121">Call Me</a>
-        </section>
-        <hr>
-        <section id="contact" class="secondSection">
-            <h1>Contact Me</h1>
-            <p>Email: <a href="mailto:singhjanhvi2006@gmail.com" style="color: white;">singhjanhvi2006@gmail.com</a></p>
-            <p>Phone: <a href="tel:+919219435121" style="color: white;">+91 9219435121</a></p>
-        </section>
-    </main>
-    <footer>
-        <div class="footer">
-            <div class="footer-first">
-                <h1>janhvi's Portfolio</h1>
-            </div>
-            <div class="footer-second">
-                <ul>
-                    <li>Home</li>
-                    <li>Contact</li>
-                    <li>Projects</li>
-                    <li>Services</li>
-                </ul>
-            </div>
-            <div class="footer-third">
-                <ul>
-                    <li>Home</li>
-                    <li>Contact</li>
-                    <li>Projects</li>
-                    <li>Services</li>
-                </ul>
-            </div>
-            <div class="footer-fourth">
-                <ul>
-                    <li>Home</li>
-                    <li>Contact</li>
-                    <li>Projects</li>
-                    <li>Services</li>
-                </ul>
-            </div>
-        </div>
-    </footer>
 
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <script>
-        var typed = new Typed('#element', {
-            strings: ['Web Developer', 'Web Designer', 'Data Analyst'],
-            typeSpeed: 50,
-        });
-    </script>
+<!-- NAVBAR -->
+<nav class="navbar" id="navbar">
+  <a href="#hero" class="nav-logo">JS.</a>
+  <ul class="nav-links" id="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div class="hero-bg"></div>
+  <canvas id="particles-canvas"></canvas>
+  <div class="hero-content">
+    <div class="hero-text">
+      <p class="hero-greeting">👋 Hello, I'm</p>
+      <h1 class="hero-name">Janhvi <span class="gradient">Singh</span></h1>
+      <p class="hero-title">I'm a <span class="typed-text"></span><span class="cursor"></span></p>
+      <p class="hero-desc">Computer Science (AI) undergraduate with strong problem-solving skills — 300+ LeetCode problems solved and a peak contest rating of 1610. I build AI-powered and full-stack web applications with Python, Flask, React.js, and REST APIs, and I'm passionate about backend development, machine learning, and scalable software design.</p>
+      <div class="hero-buttons">
+        <a href="#contact" class="btn btn-primary">💬 Let's Talk</a>
+        <!-- Replace the href below with a direct link to your hosted resume PDF (e.g. a Google Drive "view" link or a file in this same folder) -->
+        <a href="#" class="btn btn-outline" id="download-resume-btn" target="_blank" rel="noopener">📄 Download Resume</a>
+      </div>
+      <div class="hero-socials">
+        <a href="mailto:singhjanhvi2006@gmail.com" title="Email" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        <a href="tel:+919219435121" title="Phone" aria-label="Phone"><i class="fas fa-phone"></i></a>
+        <a href="https://www.linkedin.com/in/janhvi-singh-0a87072b6/" target="_blank" rel="noopener" title="LinkedIn" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/janhvis250" target="_blank" rel="noopener" title="GitHub" aria-label="GitHub"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+    <div class="hero-image" id="hero-image-container">
+      <!-- Replace this placeholder with <img src="your-photo-link-or-filename" alt="Janhvi Singh"> once you have a photo link -->
+      <div class="photo-placeholder">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8" r="4"></circle><path d="M4 20c0-4.4 3.6-8 8-8s8 3.6 8 8"></path></svg>
+        <span>Add your photo</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag">About Me</span>
+      <h2 class="section-title">Who I Am</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p>I'm <strong>Janhvi Singh</strong>, a Computer Science (AI) undergraduate at <strong>KNIPSS Sultanpur</strong> with a strong foundation in backend development, machine learning, and full-stack web engineering.</p>
+        <p>Skilled in Python, Java, JavaScript, React.js, Flask, and REST APIs, I enjoy building AI-powered applications and designing scalable, well-structured software solutions.</p>
+        <p>I previously worked as a <strong>Web Developer Intern at Codevirus Security Pvt. Ltd.</strong>, building Learning Management System modules and CRM features including employee login and attendance tracking.</p>
+        <div class="about-stats">
+          <div class="stat-card">
+            <div class="stat-number" data-target="300" data-suffix="+">0</div>
+            <div class="stat-label">LeetCode Problems</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number" data-target="1610" data-suffix="">0</div>
+            <div class="stat-label">Peak Contest Rating</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number" data-target="3" data-suffix="+">0</div>
+            <div class="stat-label">Projects</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number" data-target="8" data-suffix=".32">0</div>
+            <div class="stat-label">CGPA</div>
+          </div>
+        </div>
+      </div>
+      <div class="about-details reveal">
+        <div class="detail-card">
+          <h3><span class="icon">🎓</span> Education</h3>
+          <p>B.Tech CSE (AI) from KNIPSS Sultanpur (2023–2027) with CGPA 8.32</p>
+        </div>
+        <div class="detail-card">
+          <h3><span class="icon">💼</span> Past Role</h3>
+          <p>Web Developer Intern @ Codevirus Security Pvt. Ltd. — PHP, MySQL, CRM & LMS features</p>
+        </div>
+        <div class="detail-card">
+          <h3><span class="icon">🏆</span> Achievements</h3>
+          <p>SIH 2025 Qualifier | 300+ LeetCode problems | Peak contest rating 1610</p>
+        </div>
+        <div class="detail-card">
+          <h3><span class="icon">📍</span> Location</h3>
+          <p>India — Open to remote & on-site opportunities</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" style="background: var(--bg-secondary);">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag">My Skills</span>
+      <h2 class="section-title">Technologies I Work With</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="skills-grid reveal">
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fab fa-python"></i></div>
+        <div class="skill-name">Python</div>
+        <div class="skill-bar-wrap"><div class="skill-bar-bg"><div class="skill-bar-fill" data-level="88%"></div></div></div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fab fa-java"></i></div>
+        <div class="skill-name">Java</div>
+        <div class="skill-bar-wrap"><div class="skill-bar-bg"><div class="skill-bar-fill" data-level="78%"></div></div></div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fab fa-js-square"></i></div>
+        <div class="skill-name">JavaScript</div>
+        <div class="skill-bar-wrap"><div class="skill-bar-bg"><div class="skill-bar-fill" data-level="82%"></div></div></div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fab fa-react"></i></div>
+        <div class="skill-name">React.js</div>
+        <div class="skill-bar-wrap"><div class="skill-bar-bg"><div class="skill-bar-fill" data-level="80%"></div></div></div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fas fa-flask"></i></div>
+        <div class="skill-name">Flask</div>
+        <div class="skill-bar-wrap"><div class="skill-bar-bg"><div class="skill-bar-fill" data-level="82%"></div></div></div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fas fa-bolt"></i></div>
+        <div class="skill-name">FastAPI</div>
+        <div class="skill-bar-wrap"><div class="skill-bar-bg"><div class="skill-bar-fill" data-level="55%"></div></div></div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fab fa-node-js"></i></div>
+        <div class="skill-name">Node.js</div>
+        <div class="skill-bar-wrap"><div class="skill-bar-bg"><div class="skill-bar-fill" data-level="70%"></div></div></div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fas fa-plug"></i></div>
+        <div class="skill-name">REST APIs</div>
+        <div class="skill-bar-wrap"><div class="skill-bar-bg"><div class="skill-bar-fill" data-level="85%"></div></div></div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fas fa-database"></i></div>
+        <div class="skill-name">MySQL</div>
+        <div class="skill-bar-wrap"><div class="skill-bar-bg"><div class="skill-bar-fill" data-level="80%"></div></div></div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fas fa-database"></i></div>
+        <div class="skill-name">SQLite</div>
+        <div class="skill-bar-wrap"><div class="skill-bar-bg"><div class="skill-bar-fill" data-level="75%"></div></div></div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fas fa-server"></i></div>
+        <div class="skill-name">Oracle SQL*Plus</div>
+        <div class="skill-bar-wrap"><div class="skill-bar-bg"><div class="skill-bar-fill" data-level="65%"></div></div></div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fas fa-sitemap"></i></div>
+        <div class="skill-name">System Design</div>
+        <div class="skill-bar-wrap"><div class="skill-bar-bg"><div class="skill-bar-fill" data-level="55%"></div></div></div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fab fa-git-alt"></i></div>
+        <div class="skill-name">Git/GitHub</div>
+        <div class="skill-bar-wrap"><div class="skill-bar-bg"><div class="skill-bar-fill" data-level="85%"></div></div></div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fab fa-docker"></i></div>
+        <div class="skill-name">Docker</div>
+        <div class="skill-bar-wrap"><div class="skill-bar-bg"><div class="skill-bar-fill" data-level="60%"></div></div></div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fas fa-brain"></i></div>
+        <div class="skill-name">DSA</div>
+        <div class="skill-bar-wrap"><div class="skill-bar-bg"><div class="skill-bar-fill" data-level="88%"></div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag">Experience</span>
+      <h2 class="section-title">Where I've Worked</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="timeline">
+      <div class="timeline-item reveal">
+        <div class="timeline-card">
+          <span class="timeline-date">Jan 2026 – Mar 2026</span>
+          <h3>Web Developer Intern</h3>
+          <p class="company">@ Codevirus Security Pvt. Ltd.</p>
+          <ul>
+            <li>Developed 2 Learning Management System (LMS) modules using PHP and MySQL for secure notes upload, download, and role-based access</li>
+            <li>Implemented employee login, attendance tracking, and live class management features as part of the organization's CRM platform</li>
+            <li>Optimized backend functionality by collaborating with the development team</li>
+            <li>Received a Letter of Recommendation for technical contributions and performance</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" style="background: var(--bg-secondary);">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag">Projects</span>
+      <h2 class="section-title">What I've Built</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="projects-grid">
+      <div class="project-card reveal">
+        <div class="project-header">
+          <div class="project-icon" style="background:linear-gradient(135deg,rgba(0,212,255,0.2),rgba(123,97,255,0.2));">🔮</div>
+          <div class="project-links">
+            <!-- Replace with the actual repo link once you share it, e.g. https://github.com/janhvis250/vedic-astrology-fortune -->
+            <a href="https://github.com/janhvis250" target="_blank" rel="noopener" title="GitHub Repo"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <div class="project-body">
+          <h3>Vedic Astrology Fortune</h3>
+          <p>An AI-powered Vedic astrology platform that generates personalized horoscope predictions and astrological insights from user birth details using the Gemini API. Built an interactive React + Vite + Tailwind frontend and a Flask REST API for LLM integration, deployed on Vercel.</p>
+          <div class="project-tags">
+            <span>React.js</span><span>Vite</span><span>Tailwind CSS</span><span>Flask</span><span>Gemini API</span>
+          </div>
+        </div>
+      </div>
+      <div class="project-card reveal">
+        <div class="project-header">
+          <div class="project-icon" style="background:linear-gradient(135deg,rgba(123,97,255,0.2),rgba(255,107,157,0.2));">🧳</div>
+          <div class="project-links">
+            <a href="https://github.com/janhvis250" target="_blank" rel="noopener" title="GitHub Repo"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <div class="project-body">
+          <h3>Wanderlust AI Trip Planner</h3>
+          <p>An AI-powered trip planner that generates personalized travel itineraries based on user preferences, using the Gemini API to recommend destinations, attractions, and optimized day-wise plans, with robust API error handling.</p>
+          <div class="project-tags">
+            <span>Python</span><span>Flask</span><span>Gemini API</span><span>JavaScript</span>
+          </div>
+        </div>
+      </div>
+      <div class="project-card reveal">
+        <div class="project-header">
+          <div class="project-icon" style="background:linear-gradient(135deg,rgba(255,195,113,0.2),rgba(255,95,109,0.2));">🛍️</div>
+          <div class="project-links">
+            <a href="https://github.com/janhvis250" target="_blank" rel="noopener" title="GitHub Repo"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <div class="project-body">
+          <h3>E-Commerce Recommendation System</h3>
+          <p>A product recommendation system using similarity-based machine learning techniques. Implemented data preprocessing and optimized search with Scikit-learn and Pandas, deployed with a responsive UI for seamless product discovery.</p>
+          <div class="project-tags">
+            <span>Python</span><span>Flask</span><span>Pandas</span><span>Scikit-learn</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag">Education</span>
+      <h2 class="section-title">My Academic Journey</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="edu-grid">
+      <div class="edu-card reveal">
+        <span class="edu-year">2023 – 2027</span>
+        <h3>Bachelor of Technology (CSE)</h3>
+        <p class="edu-inst">KNIPSS Sultanpur</p>
+        <p class="edu-score">CGPA: 8.32/10.0</p>
+      </div>
+      <div class="edu-card reveal">
+        <span class="edu-year">2023</span>
+        <h3>Senior Secondary (12th)</h3>
+        <p class="edu-inst">CBSE Board</p>
+        <p class="edu-score">Percentage: 61.1%</p>
+      </div>
+      <div class="edu-card reveal">
+        <span class="edu-year">2021</span>
+        <h3>Secondary (10th)</h3>
+        <p class="edu-inst">ICSE Board</p>
+        <p class="edu-score">Percentage: 84.4%</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATIONS & ACHIEVEMENTS -->
+<section id="certifications" style="background: var(--bg-secondary);">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag">Recognition</span>
+      <h2 class="section-title">Certifications & Achievements</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="cert-ach-grid reveal">
+      <div class="cert-section">
+        <h3>🏅 Certifications</h3>
+        <div class="cert-item">
+          <div class="cert-icon">☕</div>
+          <p>Java (Basics) – <strong>HackerRank</strong></p>
+        </div>
+        <div class="cert-item">
+          <div class="cert-icon">🐍</div>
+          <p>Python – <strong>HackerRank</strong></p>
+        </div>
+      </div>
+      <div class="ach-section">
+        <h3>🏆 Achievements</h3>
+        <div class="ach-item">
+          <div class="ach-icon">💻</div>
+          <p>Solved <strong>300+</strong> DSA problems on LeetCode with a peak contest rating of <strong>1610</strong> — <a href="https://github.com/janhvis250" target="_blank" rel="noopener">View GitHub</a></p>
+        </div>
+        <div class="ach-item">
+          <div class="ach-icon">🚀</div>
+          <p>Qualified the <strong>Smart India Hackathon (SIH) 2025</strong></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag">Get In Touch</span>
+      <h2 class="section-title">Let's Work Together</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="contact-wrapper reveal">
+      <div class="contact-info">
+        <h3>Contact Info</h3>
+        <p>Feel free to reach out for collaborations, opportunities, or just a friendly chat!</p>
+        <a href="mailto:singhjanhvi2006@gmail.com" class="contact-item">
+          <div class="ci-icon"><i class="fas fa-envelope"></i></div>
+          <div class="ci-text"><span>Email</span><p>singhjanhvi2006@gmail.com</p></div>
+        </a>
+        <a href="tel:+919219435121" class="contact-item">
+          <div class="ci-icon"><i class="fas fa-phone"></i></div>
+          <div class="ci-text"><span>Phone</span><p>+91-9219435121</p></div>
+        </a>
+        <a href="https://www.linkedin.com/in/janhvi-singh-0a87072b6/" target="_blank" rel="noopener" class="contact-item">
+          <div class="ci-icon"><i class="fab fa-linkedin-in"></i></div>
+          <div class="ci-text"><span>LinkedIn</span><p>linkedin.com/in/janhvi-singh-0a87072b6</p></div>
+        </a>
+        <a href="https://github.com/janhvis250" target="_blank" rel="noopener" class="contact-item">
+          <div class="ci-icon"><i class="fab fa-github"></i></div>
+          <div class="ci-text"><span>GitHub</span><p>github.com/janhvis250</p></div>
+        </a>
+      </div>
+      <form class="contact-form" id="contact-form">
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" placeholder="John Doe" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Your Email</label>
+          <input type="email" id="email" name="email" placeholder="john@example.com" required>
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" placeholder="Project Collaboration">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Tell me about your project..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;">🚀 Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <p>© 2026 Janhvi Singh. Crafted with <span class="heart">❤</span> and lots of ☕</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
